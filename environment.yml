@@ -1,0 +1,11 @@
+name: ce4ib
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab=4
+  - ipykernel=6
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy

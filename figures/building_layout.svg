@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="840" viewBox="0 0 1000 840" role="img" aria-labelledby="title desc">
+<title id="title">Winterthur campus-inspired teaching pavilion</title>
+<desc id="desc">North is up. A nine by six metre reference plan contains a six by six metre student project room to the west and a three by six metre office to the east. A shared wall and an internal door connect them. Two two-by-one-point-five metre windows face south in the project room. One one-point-five-by-one-point-two metre window faces north in the office. An exterior door opens into the north side of the project room.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8 Z" fill="#66748a"/></marker></defs>
+<rect width="1000" height="840" fill="#fff"/>
+<g font-family="Arial, sans-serif" fill="#233247" text-anchor="middle">
+<text x="500" y="38" font-size="25" font-weight="600">Winterthur campus-inspired teaching pavilion</text>
+<text x="500" y="68" font-size="16" fill="#627187">Project building · One storey · Height 3.0 m · Reference area 54 m²</text>
+<rect x="100" y="160" width="480" height="480" fill="#eaf2fc"/>
+<rect x="580" y="160" width="240" height="480" fill="#fff1de"/>
+<g stroke="#233247" stroke-width="8" fill="none">
+<path d="M100 640 V160 H156 M236 160 H640 M760 160 H820 V640 H564 M404 640 H340 M180 640 H100"/>
+<path d="M580 160 V488 M580 560 V640"/>
+</g>
+<g stroke="#287fa8" stroke-width="2.5" fill="none">
+<path d="M180 636 H340 M180 644 H340 M180 633 V647 M340 633 V647 M404 636 H564 M404 644 H564 M404 633 V647 M564 633 V647 M640 156 H760 M640 164 H760 M640 153 V167 M760 153 V167"/>
+</g>
+<g stroke="#627187" stroke-width="1.6" fill="none">
+<path d="M156 160 V240 M236 160 A80 80 0 0 1 156 240 M580 560 H652 M580 488 A72 72 0 0 1 652 560"/>
+</g>
+<text x="196" y="119" font-size="15">D1  1.00 × 2.10 m</text>
+<text x="700" y="119" font-size="15">W3  1.50 × 1.20 m</text>
+<text x="340" y="284" font-size="17" letter-spacing="1">ZONE 1</text>
+<text x="340" y="318" font-size="27" font-weight="600">Student project room</text>
+<text x="340" y="351" font-size="19">6.0 × 6.0 m  |  36 m²  |  108 m³</text>
+<text x="340" y="382" font-size="18">4 students with laptops</text>
+<text x="700" y="284" font-size="17" letter-spacing="1">ZONE 2</text>
+<text x="700" y="318" font-size="27" font-weight="600">Office</text>
+<text x="700" y="351" font-size="19">3.0 × 6.0 m</text>
+<text x="700" y="381" font-size="18">18 m²  |  54 m³</text>
+<text x="700" y="410" font-size="17">2 staff with laptops</text>
+<text x="558" y="375" transform="rotate(-90 558 375)" font-size="14" fill="#627187">Shared partition</text>
+<g stroke="#98a5b7" stroke-width="1.3" fill="#fff">
+<rect x="244" y="453" width="192" height="62"/>
+<circle cx="283" cy="434" r="12"/><circle cx="396" cy="434" r="12"/>
+<circle cx="283" cy="536" r="12"/><circle cx="396" cy="536" r="12"/>
+<rect x="620" y="451" width="64" height="43"/><rect x="718" y="451" width="64" height="43"/>
+<circle cx="652" cy="514" r="11"/><circle cx="750" cy="514" r="11"/>
+</g>
+<text x="340" y="489" font-size="15" fill="#627187">Project table</text>
+<text x="666" y="581" font-size="15">D2</text>
+<text x="260" y="675" font-size="15">W1  2.00 × 1.50 m</text>
+<text x="484" y="675" font-size="15">W2  2.00 × 1.50 m</text>
+<text x="700" y="675" font-size="14" fill="#627187">Opaque south wall</text>
+<g stroke="#66748a" stroke-width="1" fill="none">
+<path d="M100 694 V730 M580 694 V730 M820 694 V730 M100 747 V782 M820 747 V782 M33 160 H69 M33 640 H69"/>
+<path d="M106 718 H574 M586 718 H814 M106 768 H814 M51 166 V634" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<path d="M900 218 V153" stroke-width="2" marker-end="url(#arrow)"/>
+</g>
+<text x="340" y="707" font-size="17">6.0 m</text>
+<text x="700" y="707" font-size="17">3.0 m</text>
+<text x="460" y="756" font-size="17">9.0 m reference width</text>
+<text x="36" y="400" transform="rotate(-90 36 400)" font-size="17">6.0 m</text>
+<text x="900" y="134" font-size="19" font-weight="600">N</text>
+<text x="500" y="815" font-size="14" fill="#627187">Thermal reference grid; wall thickness omitted in plan. Both doors are closed in the baseline.</text>
+</g></svg>

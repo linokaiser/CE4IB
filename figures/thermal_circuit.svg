@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1240" viewBox="0 0 1400 1240" role="img" aria-labelledby="title desc">
+<title id="title">Numbered two-zone thermal circuit</title>
+<desc id="desc">Two room-air nodes connect to separate wall, roof and floor storage nodes through massless inner surfaces. Each surface exchanges heat by convection and linearized radiation. Outdoor window, door and ventilation paths and a setpoint-controller path connect directly to room air. A shared partition storage node and a resistance-only internal door couple the two rooms. Node and branch numbers match the notebook tables.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 1 L7 4 L0 7" fill="none" stroke="#334155" stroke-width="1.2"/></marker></defs>
+<rect width="1400" height="1240" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#24344a">
+<text x="700" y="32" text-anchor="middle" font-size="25" font-weight="600" fill="#24344a">Two-zone thermal circuit</text>
+<text x="700" y="58" text-anchor="middle" font-size="16" font-weight="400" fill="#64748b">Branch and node numbers correspond to the notebook tables</text>
+<text x="440" y="96" text-anchor="middle" font-size="20" font-weight="600" fill="#24344a">Project room</text>
+<path d="M840 123 V545" fill="none" stroke="#334155" stroke-width="2"/>
+<rect x="33" y="140" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="160" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_out</text>
+<text x="213" y="125" text-anchor="middle" font-size="15" font-weight="400" fill="#64748b">External wall</text>
+<path d="M127 155 H332" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="206.0" y="149.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="280" y="143" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q0</text>
+<circle cx="350" cy="155" r="18" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="350" y="160" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ1</text>
+<path d="M350 173 H350 V185 M339 185 H361 M339 193 H361 M350 193 V203" fill="none" stroke="#334155" stroke-width="1.5"/>
+<text x="376" y="196" text-anchor="start" font-size="14" font-weight="400" fill="#24344a">C1</text>
+<path d="M368 155 H555" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="429.0" y="149.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="503" y="143" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q1</text>
+<circle cx="570" cy="155" r="15" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="570" y="160" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ2</text>
+<path d="M585 155 H625 V133 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M625 155 V177 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="703.0" y="127.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<rect x="703.0" y="171.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="725" y="120" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q2 convection</text>
+<text x="725" y="167" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q3 radiation</text>
+<rect x="33" y="230" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="250" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_out</text>
+<text x="213" y="215" text-anchor="middle" font-size="15" font-weight="400" fill="#64748b">Roof</text>
+<path d="M127 245 H332" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="206.0" y="239.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="280" y="233" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q4</text>
+<circle cx="350" cy="245" r="18" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="350" y="250" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ3</text>
+<path d="M350 263 H350 V275 M339 275 H361 M339 283 H361 M350 283 V293" fill="none" stroke="#334155" stroke-width="1.5"/>
+<text x="376" y="286" text-anchor="start" font-size="14" font-weight="400" fill="#24344a">C3</text>
+<path d="M368 245 H555" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="429.0" y="239.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="503" y="233" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q5</text>
+<circle cx="570" cy="245" r="15" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="570" y="250" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ4</text>
+<path d="M585 245 H625 V223 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M625 245 V267 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="703.0" y="217.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<rect x="703.0" y="261.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="725" y="210" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q6 convection</text>
+<text x="725" y="257" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q7 radiation</text>
+<rect x="33" y="320" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="340" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_ground</text>
+<text x="213" y="305" text-anchor="middle" font-size="15" font-weight="400" fill="#64748b">Floor</text>
+<path d="M127 335 H332" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="206.0" y="329.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="280" y="323" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q8</text>
+<circle cx="350" cy="335" r="18" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="350" y="340" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ5</text>
+<path d="M350 353 H350 V365 M339 365 H361 M339 373 H361 M350 373 V383" fill="none" stroke="#334155" stroke-width="1.5"/>
+<text x="376" y="376" text-anchor="start" font-size="14" font-weight="400" fill="#24344a">C5</text>
+<path d="M368 335 H555" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="429.0" y="329.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="503" y="323" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q9</text>
+<circle cx="570" cy="335" r="15" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="570" y="340" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ6</text>
+<path d="M585 335 H625 V313 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M625 335 V357 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="703.0" y="307.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<rect x="703.0" y="351.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="725" y="300" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q10 convection</text>
+<text x="725" y="347" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q11 radiation</text>
+<rect x="33" y="396" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="416" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_out</text>
+<path d="M127 411 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="428.0" y="405.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="450" y="400" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q12  Windows</text>
+<rect x="33" y="435" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="455" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_out</text>
+<path d="M127 450 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="428.0" y="444.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="450" y="439" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q13  Exterior door</text>
+<rect x="33" y="474" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="494" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_out</text>
+<path d="M127 489 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="428.0" y="483.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="450" y="478" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q14  Ventilation</text>
+<rect x="33" y="513" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="533" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_set</text>
+<path d="M127 528 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="428.0" y="522.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="450" y="517" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q15  P-controller</text>
+<circle cx="840" cy="275" r="18" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="840" y="280" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ0</text>
+<path d="M840 293 H900 V305 M889 305 H911 M889 313 H911 M900 313 V323" fill="none" stroke="#334155" stroke-width="1.5"/>
+<text x="926" y="316" text-anchor="start" font-size="14" font-weight="400" fill="#24344a">C0</text>
+<text x="873" y="251" text-anchor="start" font-size="16" font-weight="600" fill="#24344a">Room air θ0</text>
+<path d="M930 210 L856 265" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="941" y="206" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">f0: internal gains</text>
+<text x="440" y="706" text-anchor="middle" font-size="20" font-weight="600" fill="#24344a">Office</text>
+<path d="M840 733 V1155" fill="none" stroke="#334155" stroke-width="2"/>
+<rect x="33" y="750" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="770" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_out</text>
+<text x="213" y="735" text-anchor="middle" font-size="15" font-weight="400" fill="#64748b">External wall</text>
+<path d="M127 765 H332" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="206.0" y="759.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="280" y="753" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q16</text>
+<circle cx="350" cy="765" r="18" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="350" y="770" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ8</text>
+<path d="M350 783 H350 V795 M339 795 H361 M339 803 H361 M350 803 V813" fill="none" stroke="#334155" stroke-width="1.5"/>
+<text x="376" y="806" text-anchor="start" font-size="14" font-weight="400" fill="#24344a">C8</text>
+<path d="M368 765 H555" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="429.0" y="759.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="503" y="753" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q17</text>
+<circle cx="570" cy="765" r="15" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="570" y="770" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ9</text>
+<path d="M585 765 H625 V743 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M625 765 V787 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="703.0" y="737.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<rect x="703.0" y="781.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="725" y="730" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q18 convection</text>
+<text x="725" y="777" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q19 radiation</text>
+<rect x="33" y="840" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="860" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_out</text>
+<text x="213" y="825" text-anchor="middle" font-size="15" font-weight="400" fill="#64748b">Roof</text>
+<path d="M127 855 H332" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="206.0" y="849.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="280" y="843" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q20</text>
+<circle cx="350" cy="855" r="18" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="350" y="860" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ10</text>
+<path d="M350 873 H350 V885 M339 885 H361 M339 893 H361 M350 893 V903" fill="none" stroke="#334155" stroke-width="1.5"/>
+<text x="376" y="896" text-anchor="start" font-size="14" font-weight="400" fill="#24344a">C10</text>
+<path d="M368 855 H555" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="429.0" y="849.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="503" y="843" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q21</text>
+<circle cx="570" cy="855" r="15" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="570" y="860" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ11</text>
+<path d="M585 855 H625 V833 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M625 855 V877 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="703.0" y="827.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<rect x="703.0" y="871.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="725" y="820" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q22 convection</text>
+<text x="725" y="867" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q23 radiation</text>
+<rect x="33" y="930" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="950" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_ground</text>
+<text x="213" y="915" text-anchor="middle" font-size="15" font-weight="400" fill="#64748b">Floor</text>
+<path d="M127 945 H332" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="206.0" y="939.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="280" y="933" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q24</text>
+<circle cx="350" cy="945" r="18" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="350" y="950" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ12</text>
+<path d="M350 963 H350 V975 M339 975 H361 M339 983 H361 M350 983 V993" fill="none" stroke="#334155" stroke-width="1.5"/>
+<text x="376" y="986" text-anchor="start" font-size="14" font-weight="400" fill="#24344a">C12</text>
+<path d="M368 945 H555" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="429.0" y="939.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="503" y="933" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q25</text>
+<circle cx="570" cy="945" r="15" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="570" y="950" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ13</text>
+<path d="M585 945 H625 V923 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M625 945 V967 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="703.0" y="917.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<rect x="703.0" y="961.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="725" y="910" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q26 convection</text>
+<text x="725" y="957" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q27 radiation</text>
+<rect x="33" y="1006" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="1026" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_out</text>
+<path d="M127 1021 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="428.0" y="1015.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="450" y="1010" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q28  Windows</text>
+<rect x="33" y="1045" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="1065" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_out</text>
+<path d="M127 1060 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="428.0" y="1054.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="450" y="1049" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q29  Ventilation</text>
+<rect x="33" y="1084" width="94" height="30" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="80" y="1104" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">T_set</text>
+<path d="M127 1099 H840" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="428.0" y="1093.0" width="44" height="12" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="450" y="1088" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">q30  P-controller</text>
+<circle cx="840" cy="885" r="18" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="840" y="890" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ7</text>
+<path d="M840 903 H900 V915 M889 915 H911 M889 923 H911 M900 923 V933" fill="none" stroke="#334155" stroke-width="1.5"/>
+<text x="926" y="926" text-anchor="start" font-size="14" font-weight="400" fill="#24344a">C7</text>
+<text x="873" y="861" text-anchor="start" font-size="16" font-weight="600" fill="#24344a">Room air θ7</text>
+<path d="M930 820 L856 875" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="941" y="816" text-anchor="middle" font-size="14" font-weight="400" fill="#24344a">f7: internal gains</text>
+<path d="M858 275 H1020 V610 H1042" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="1014.0" y="419.0" width="12" height="42" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="1000" y="446" text-anchor="end" font-size="15" font-weight="400" fill="#24344a">q31</text>
+<circle cx="1060" cy="610" r="18" fill="white" stroke="#334155" stroke-width="1.6"/>
+<text x="1060" y="615" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ14</text>
+<path d="M1060 628 H1060 V640 M1049 640 H1071 M1049 648 H1071 M1060 648 V658" fill="none" stroke="#334155" stroke-width="1.5"/>
+<text x="1086" y="651" text-anchor="start" font-size="14" font-weight="400" fill="#24344a">C14</text>
+<text x="1060" y="577" text-anchor="middle" font-size="17" font-weight="600" fill="#24344a">Shared partition</text>
+<path d="M1078 610 H1120 V885 H858" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="1114.0" y="732.0" width="12" height="42" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="1140" y="759" text-anchor="start" font-size="15" font-weight="400" fill="#24344a">q32</text>
+<path d="M858 275 H1290 V885 H858" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="1284.0" y="589.0" width="12" height="42" fill="white" stroke="#334155" stroke-width="1.5"/>
+<text x="1268" y="578" text-anchor="end" font-size="15" font-weight="400" fill="#24344a">q33</text>
+<text x="1268" y="600" text-anchor="end" font-size="15" font-weight="400" fill="#24344a">Internal door</text>
+<text x="700" y="1190" text-anchor="middle" font-size="16" font-weight="400" fill="#64748b">C marks stored heat; surface nodes have C = 0. Arrows define positive flow.</text>
+<text x="700" y="1216" text-anchor="middle" font-size="15" font-weight="400" fill="#64748b">Radiation uses the room-air temperature as a proxy for mean radiant temperature.</text>
+</g></svg>
