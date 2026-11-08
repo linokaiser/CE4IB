@@ -25,13 +25,7 @@ Campus Technikumstrasse.
 
 ## Run
 
-```powershell
-conda env create -f environment.yml
-conda activate ce4ib
-jupyter lab
-```
-
-For an existing environment, run `conda env update -f environment.yml` first.
+[Open in Binder](https://mybinder.org/v2/gh/linokaiser/CE4IB/main?urlpath=%2Fdoc%2Ftree%2F01_model.ipynb)
 
 The notebooks use NumPy, pandas, Matplotlib and SciPy. The selected Zurich Airport
-TMYx 2009–2023 EPW file is included in `weather_data`; no download is needed.
+TMYx 2009–2023 EPW file is included in `weather_data`.
