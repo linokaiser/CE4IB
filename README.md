@@ -3,7 +3,7 @@
 **Author:** Lino Kaiser.
 
 Thermal modelling and simulation of the Winterthur campus-inspired
-teaching pavilion: one storey, 54 m², a 36 m² student project room and an 18 m² office.
+teaching pavilion, which is 54 m² in total and consists of a 36 m² student project room and an 18 m² office.
 The geometry and construction are chosen model assumptions, inspired by ZHAW
 Campus Technikumstrasse.
 
