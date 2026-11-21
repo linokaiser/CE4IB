@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1240" viewBox="0 0 1400 1240" role="img" aria-labelledby="title desc">
 <title id="title">Numbered two-zone thermal circuit</title>
-<desc id="desc">Two room-air nodes connect to separate wall, roof and floor storage nodes through massless inner surfaces. Each surface exchanges heat by convection and linearized radiation. Outdoor window, door and ventilation paths and a setpoint-controller path connect directly to room air. A shared partition storage node and a resistance-only internal door couple the two rooms. Node and branch numbers match the notebook tables.</desc>
+<desc id="desc">Two room-air nodes connect to separate wall, roof and floor storage nodes through massless inner surfaces. Each surface exchanges heat by convection and linearized radiation. Outdoor window, door and ventilation paths and a setpoint-controller path connect directly to room air. A shared internal wall storage node and a resistance-only internal door couple the two rooms. Node and branch numbers match the notebook tables.</desc>
 <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 1 L7 4 L0 7" fill="none" stroke="#334155" stroke-width="1.2"/></marker></defs>
 <rect width="1400" height="1240" fill="white"/>
 <g font-family="Arial, sans-serif" fill="#24344a">
@@ -192,7 +192,7 @@
 <text x="1060" y="615" text-anchor="middle" font-size="15" font-weight="400" fill="#24344a">θ14</text>
 <path d="M1060 628 H1060 V640 M1049 640 H1071 M1049 648 H1071 M1060 648 V658" fill="none" stroke="#334155" stroke-width="1.5"/>
 <text x="1086" y="651" text-anchor="start" font-size="14" font-weight="400" fill="#24344a">C14</text>
-<text x="1060" y="577" text-anchor="middle" font-size="17" font-weight="600" fill="#24344a">Shared partition</text>
+<text x="1060" y="577" text-anchor="middle" font-size="17" font-weight="600" fill="#24344a">Shared internal wall</text>
 <path d="M1078 610 H1120 V885 H858" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
 <rect x="1114.0" y="732.0" width="12" height="42" fill="white" stroke="#334155" stroke-width="1.5"/>
 <text x="1140" y="759" text-anchor="start" font-size="15" font-weight="400" fill="#24344a">q32</text>

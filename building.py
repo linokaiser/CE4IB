@@ -109,7 +109,7 @@ definition = {
         'external_wall': [('gypsum_plaster', 0.015), ('brick', 0.2), ('mineral_wool', 0.12), ('render', 0.015)],
         'roof': [('gypsum_plaster', 0.015), ('concrete', 0.15), ('mineral_wool', 0.16)],
         'floor': [('timber', 0.02), ('concrete', 0.15), ('eps', 0.1)],
-        'partition': [('gypsum_plaster', 0.0125), ('brick', 0.1), ('gypsum_plaster', 0.0125)],
+        'shared_internal_wall': [('gypsum_plaster', 0.0125), ('brick', 0.1), ('gypsum_plaster', 0.0125)],
         'internal_door': [('timber', 0.04)],
     },
     'boundary': {

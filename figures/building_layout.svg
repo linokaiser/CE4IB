@@ -29,7 +29,7 @@
 <text x="700" y="351" font-size="19">3.0 × 6.0 m</text>
 <text x="700" y="381" font-size="18">18 m²  |  54 m³</text>
 <text x="700" y="410" font-size="17">2 staff with laptops</text>
-<text x="558" y="375" transform="rotate(-90 558 375)" font-size="14" fill="#627187">Shared partition</text>
+<text x="558" y="375" transform="rotate(-90 558 375)" font-size="14" fill="#627187">Shared internal wall</text>
 <g stroke="#98a5b7" stroke-width="1.3" fill="#fff">
 <rect x="244" y="453" width="192" height="62"/>
 <circle cx="283" cy="434" r="12"/><circle cx="396" cy="434" r="12"/>

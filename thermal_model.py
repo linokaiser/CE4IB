@@ -42,7 +42,7 @@ for name in zone_names:
 
 internal_door = next(o for o in openings if o["kind"] == "internal_door")
 door_area = internal_door["width_m"] * internal_door["height_m"]
-partition_area = building["reference_depth_m"] * building["height_m"] - door_area
+shared_internal_wall_area = building["reference_depth_m"] * building["height_m"] - door_area
 
 
 def element_properties(assembly, area):
@@ -62,7 +62,7 @@ node_names = [
     "Project floor mass", "Project floor surface",
     "Office air", "Office wall mass", "Office wall surface",
     "Office roof mass", "Office roof surface",
-    "Office floor mass", "Office floor surface", "Shared partition",
+    "Office floor mass", "Office floor surface", "Shared internal wall",
 ]
 capacities = np.zeros(len(node_names))
 branches = []       # Each row: name, start node/source, end node, conductance
@@ -103,11 +103,11 @@ for zone_index, name in enumerate(zone_names):
     heating_branches.append(len(branches))
     branches.append((f"{name}: P-controller", "setpoint", air, 0.0))
 
-r_left, r_right, capacities[14] = element_properties("partition", partition_area)
-partition_branches = [len(branches), len(branches) + 1]
+r_left, r_right, capacities[14] = element_properties("shared_internal_wall", shared_internal_wall_area)
+shared_internal_wall_branches = [len(branches), len(branches) + 1]
 branches.extend([
-    ("Partition: project side", 0, 14, partition_area / (r_inside + r_left)),
-    ("Partition: office side", 14, 7, partition_area / (r_right + r_inside)),
+    ("Shared internal wall: project side", 0, 14, shared_internal_wall_area / (r_inside + r_left)),
+    ("Shared internal wall: office side", 14, 7, shared_internal_wall_area / (r_right + r_inside)),
 ])
 door_resistance = sum(d / materials[m]["lambda_W_mK"]
                       for m, d in assemblies["internal_door"])
