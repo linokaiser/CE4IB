@@ -64,10 +64,8 @@ heat_capacity = 1000  # J/(kg·K)
 
 outside_temperature = 0  # °C
 floor_temperature = 10  # °C
-# student_heat_gain = 0  # W
-# office_heat_gain = 0  # W
-
-floor_source_branches = [8, 23]
+student_heat_gain = 0  # W
+office_heat_gain = 0  # W
 
 # Incidence matrix derived by hand in OneNote.
 A = np.array([
@@ -107,3 +105,5 @@ A = np.array([
 
 # Temperature inputs in °C
 u = np.array([0, 0, 10, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0])
+
+u = np.array([outside_temperature, outside_temperature, floor_temperature, outside_temperature, outside_temperature, outside_temperature, outside_temperature, outside_temperature, floor_temperature, outside_temperature, outside_temperature, student_heat_gain, office_heat_gain,])
