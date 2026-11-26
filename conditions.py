@@ -53,7 +53,6 @@ office_window = {
 hc = 3  # W/(m²·K)
 hr = 5  # W/(m²·K)
 air_density = 1.2  # kg/m³
-specific_heat_capacity = 1005  # J/(kg·K)
 air_change_rate = 1  # h⁻¹
 student_volume = 108  # m³
 office_volume = 54  # m³
