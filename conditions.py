@@ -5,18 +5,19 @@ import numpy as np
 
 
 brick = {
-    "cond": 0.8,  # W/(m·K)
+    "conduction": 0.8,  # W/(m·K)
     "density": 1800  # kg/m³
 }
 
 concrete = {
-    "cond": 2.0,  # W/(m·K)
+    "conduction": 2.0,  # W/(m·K)
     "density": 2400  # kg/m³
 }
 
 external_wall = {
     "thickness": 0.35,  # m
-    "area": 39.9  # m², calculated as 54.0 - 2.1 - 8 - 4
+    "student_area": 43.9,  # m², calculated as 54.0 - 8.0 - 2.1
+    "office_area": 32.0  # m², calculated as 36.0 - 4.0
 }
 
 internal_wall = {
@@ -26,12 +27,14 @@ internal_wall = {
 
 roof = {
     "thickness": 0.35,  # m
-    "area": 54.0  # m²
+    "student_area": 36.0,  # m²
+    "office_area": 18.0  # m²
 }
 
 floor = {
     "thickness": 0.25,  # m
-    "area": 54.0  # m²
+    "student_area": 36.0,  # m²
+    "office_area": 18.0  # m²
 }
 
 door = {
