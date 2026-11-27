@@ -65,8 +65,8 @@ time_step_duration = 60  # s
 
 outside_temperature = 0  # °C
 floor_temperature = 10  # °C
-student_heat_gain = 600  # W
-office_heat_gain = 400  # W
+student_heat_gain = 600 + 0 # W (internal gains + any heating you would want to add using a heater or something similar)
+office_heat_gain = 400  + 0 # W(internal gains + any heating you would want to add using a heater or something similar)
 
 # Incidence matrix derived by hand in OneNote.
 A = np.array([
